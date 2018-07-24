@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+            <!-- *********User Details ***********-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_profile"
+                    style="@style/TextStyleHeader"
+                    android:text="@string/user_details" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_fname"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/first_name" />
+
+                    <TextView
+                        android:id="@+id/text_first_name"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_fname"
+                        android:layout_toRightOf="@+id/text_fname" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_lname"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/last_name" />
+
+                    <TextView
+                        android:id="@+id/text_last_name"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_lname"
+                        android:layout_toRightOf="@+id/text_lname" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_dob"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/date_of_birth" />
+
+                    <TextView
+                        android:id="@+id/text_date_of_birth"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_dob"
+                        android:layout_toRightOf="@+id/text_dob" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_mob"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/contact" />
+
+                    <TextView
+                        android:id="@+id/text_contact"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_mob"
+                        android:layout_toRightOf="@+id/text_mob" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_mail"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/email" />
+
+                    <TextView
+                        android:id="@+id/text_email"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_mail"
+                        android:layout_toRightOf="@+id/text_mail" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_ptype"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/payment_type" />
+
+                    <TextView
+                        android:id="@+id/text_payment_type"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_ptype"
+                        android:layout_toRightOf="@+id/text_ptype" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- *********Plan Details ***********-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_plan"
+                    style="@style/TextStyleHeader"
+                    android:text="@string/plan_details" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_data_balance"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/remaining_data_balance" />
+
+                    <TextView
+                        android:id="@+id/text_data_balance_value"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_data_balance"
+                        android:layout_toRightOf="@+id/text_data_balance" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_date"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/exp_date" />
+
+                    <TextView
+                        android:id="@+id/text_exp_date"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_date"
+                        android:layout_toRightOf="@+id/text_date" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- *********product Details ***********-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/text_product_details"
+                    style="@style/TextStyleHeader"
+                    android:text="@string/product_details" />
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_name"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/product_name" />
+
+                    <TextView
+                        android:id="@+id/text_product_name"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_name"
+                        android:layout_toRightOf="@+id/text_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_price_product"
+                        style="@style/TextStyleNormal"
+                        android:text="@string/price" />
+                    <TextView
+                        android:id="@+id/text_price_product_price"
+                        style="@style/TextStyleNormalDark"
+                        android:layout_toEndOf="@+id/text_price_product"
+                        android:layout_toRightOf="@+id/text_price_product"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
