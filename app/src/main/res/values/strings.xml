@@ -7,7 +7,7 @@
     <string name="error_invalid_msn">This MSN address is invalid</string>
     <string name="error_field_required">This field is required</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
-    <string name="hint_msn">0468874507</string>
+    <string name="hint_msn">Hint : 0468874507</string>
     <string name="plan_details"><u>Subscription Plan</u></string>
     <string name="product_details"><u>Product Details</u></string>
     <string name="remaining_data_balance">Remaining Data Balance :</string>

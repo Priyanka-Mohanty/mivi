@@ -2,6 +2,8 @@
 
 Output:
 
+![Output](https://raw.githubusercontent.com/Priyanka-Mohanty/mivi/master/splash_screen.png)
+![Output](https://raw.githubusercontent.com/Priyanka-Mohanty/mivi/master/login_screen.png)
 ![Output](https://raw.githubusercontent.com/Priyanka-Mohanty/mivi/master/final_result.png)
 
 This is a test that need to go through if would like to join us at mivi

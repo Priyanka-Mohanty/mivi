@@ -7,4 +7,5 @@
     <color name="colorText">@color/colorWhite</color>
     <color name="colorTextDark">#FFFF00</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTextLight">#f3f6f7</color>
 </resources>
